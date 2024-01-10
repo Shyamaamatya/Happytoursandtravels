@@ -1,0 +1,194 @@
+.Carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-ohwg9z {
+  background: #fff;
+  margin: 5px;
+  width: 1250px;
+  height: 460px;
+}
+
+.css-ohwg9z img {
+  width: 1250px;
+  height: 410px;
+}
+
+.css-1ps6pg7-MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.about {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #95cfe2;
+}
+
+.about-img {
+  display: flex;
+}
+
+.about-img img {
+  width: 250px;
+  height: 20vh;
+}
+
+.intro {
+  display: flex;
+  color: white;
+  text-align: justify;
+  width: 500px;
+}
+
+.banner {
+  height: 100%;
+  width: 100%;
+}
+
+.banner > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.Navdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* .container {
+  width: 155px;
+  height: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  border: 1px solid rgb(224, 217, 217);
+  color: black;
+}
+
+.content > img {
+  width: 55px;
+  height: 80px;
+  object-fit: contain;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f2f2f2;
+  box-shadow: #c5c2c2;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  width: 285px;
+  height: 125px;
+  position: relative;
+  padding: 10px;
+}
+
+.text {
+  position: absolute;
+  inset: 0;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;
+  left: 50%; */
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.destinations {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.destinations h4 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 900;
+  color: black;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* align-content: flex-start; */
+  /* align-content: space-between; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: solid 1px #e2e0e0;
+  border-radius: 8px;
+}
+
+.card1 {
+  width: 200px;
+  height: 280px;
+}
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+.card-content {
+  text-align: left;
+  line-height: 1;
+}
+
+.card-content h5 {
+  font-size: 16px;
+  color: black;
+}
+
+.card-content h6 {
+  font-size: 14px;
+  color: dimgrey;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: black;
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "image": "./Images/Schengen.jpg",
+    "title": "Canada"
+  },
+
+  {
+    "id": 2,
+    "image": "./Images/Canada Expo.jpg",
+    "title": "Greece"
+  },
+
+  {
+    "id": 1,
+    "image": "./Images/Dubai trip.jpg",
+    "title": "Canada"
+  }
+]
